@@ -1,5 +1,5 @@
 
---------------------- Layout dos Fragments -----------------------
+#------------------Layout dos Fragments
 
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -12,7 +12,7 @@
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-------------------- Main Layout ----------------------------------
+# ------------------- Main Layout 
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_nav"
@@ -34,7 +34,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 
--------------------- Dependences -----------------------------------------
+#-------------------- Dependences 
 
     implementation("com.google.android.material:material:1.11.0")
     implementation("androidx.fragment:fragment-ktx:1.8.9")
