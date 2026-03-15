@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Esportes"
+        android:id="@+id/nav_esportes"
+        android:icon="@drawable/sports_soccer_24px"/>
+    <item android:title="Tecnologia"
+        android:id="@+id/nav_tech"
+        android:icon="@drawable/important_devices_24px"/>
+    <item android:title="Entretenimento"
+        android:id="@+id/nav_entreterimento"
+        android:icon="@drawable/tv_signin_24px"/>
+    <item android:title="Política"
+        android:id="@+id/nav_politica"
+        android:icon="@drawable/globe_24px"/>
+</menu>
