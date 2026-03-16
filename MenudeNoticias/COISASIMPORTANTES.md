@@ -1,6 +1,6 @@
 
 # --------------------------Layout dos Fragments--------------------------
-
+```
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -10,6 +10,7 @@
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+```
 
 
 # -------------------------- Main Layout --------------------------
@@ -40,6 +41,7 @@
     implementation("androidx.fragment:fragment-ktx:1.8.9")
 
 # --------------------------Versions --------------------------
+```
 agp = "8.8.0"
 kotlin = "1.9.24"
 coreKtx = "1.15.0"
@@ -51,3 +53,4 @@ material = "1.13.0"
 activity = "1.10.0"
 constraintlayout = "2.2.1"
 fragment = "1.8.9"
+```
