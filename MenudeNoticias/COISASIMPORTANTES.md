@@ -35,10 +35,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 
-# --------------------------Dependences--------------------------
+# --------------------------Dependencies--------------------------
 
     implementation("com.google.android.material:material:1.11.0")
     implementation("androidx.fragment:fragment-ktx:1.8.9")
+    
+        //api apenas para aula da api
+    implementation("androidx.recyclerview:recyclerview:VERSAO_ATUAL")
+    implementation("com.squareup.retrofit2:retrofit:3.0.0")
+    implementation("com.squareup.retrofit2:converter-gson:3.0.0")
 
 # --------------------------Versions --------------------------
 ```
@@ -53,4 +58,9 @@ material = "1.13.0"
 activity = "1.10.0"
 constraintlayout = "2.2.1"
 fragment = "1.8.9"
+```
+
+# ----------------- ANDROID MANIFEST (AULA API) ---------------------
+```
+<uses-permission android:name="android.permission.INTERNET" />
 ```
